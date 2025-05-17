@@ -5,3 +5,4 @@
 "D3",1,"Green LED"
 "D4",1,"Blue LED"
 "D5",1,"White LED"
+"DIST1",1," Ultrasonic Distance Sensor (4-pin)"
