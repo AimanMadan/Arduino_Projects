@@ -47,7 +47,6 @@ void allLights(int time) {
 
 }
 
-// Call this after declaring allLights and pin assignments:
 
 void reverseAllLights(int time) {
   // LED 5
@@ -79,7 +78,7 @@ void reverseAllLights(int time) {
 
 
 void orderLights(int time) {
-  // Turn LEDs on in sequence, then off, for 100 cycles
+  // Turn LEDs on in sequence, then off
   digitalWrite(LED1, HIGH);
   delay(time);
   digitalWrite(LED2, HIGH);
