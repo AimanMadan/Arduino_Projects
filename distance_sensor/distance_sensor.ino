@@ -37,8 +37,8 @@ void loop()
   //Measure echo pulse width
   duration = pulseIn(ECHO_PIN, HIGH);
 
-  //Convert to centimeters (speed of sound ≈ 3485 m/s = 0.03485 cm/µs)
-  distanceCm = (duration * 0.03485) / 2.0;
+  //some forumula that uses (speed of sound ≈ 348 m/s = 0.0348 cm/µs) based on temp too
+  distanceCm = (duration * 0.0348) / 2.0;
 
 
   //Closer more LED
